@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
 using AzureFunctions.Extensions.Swashbuckle.SwashBuckle;
+using Microsoft.Azure.Functions.Extensions.DependencyInjection;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Azure.WebJobs.Host.Bindings;
 using Microsoft.Azure.WebJobs.Host.Protocols;
 
